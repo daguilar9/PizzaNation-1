@@ -1,0 +1,52 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Monaco;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pizza {
+    width: 50vw;
+    height: 50vw;
+    margin-left: 25vw;
+    position: relative;
+    background-image: url(https://user-images.githubusercontent.com/14214/42060032-72e07750-7af3-11e8-8c40-a30743007ea8.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.topping {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: contain;
+    display: none;
+}
+
+.mushrooms {
+    background-image: url(https://user-images.githubusercontent.com/14214/42059808-a43feb4c-7af2-11e8-87b0-e4c0cc9bfd88.png);
+}
+
+.olives {
+    background-image: url(https://user-images.githubusercontent.com/14214/42059955-2950d38c-7af3-11e8-9a20-281c254b2599.png);
+}
+
+.pepperoni {
+    background-image: url(https://user-images.githubusercontent.com/14214/42059964-342cf380-7af3-11e8-9536-ef34b784d693.png);
+}
